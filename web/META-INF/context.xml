@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ProConWeb">
+    <!--Resource
+        auth="Container"
+        description="DB Connection"
+        name="jdbc/ebackbay"
+        type="javax.sql.DataSource"
+        password="chatservadmin"
+        driverClassName="org.postgresql.Driver"
+        maxIdle="2"
+        maxWait="5000"
+        validationQuery="select 1;"
+        username="chatservadmin"
+        url="jdbc:postgresql://188.166.204.23:5432/chatservdb"
+        maxActive="4"/-->
+    
+    <Realm className="org.apache.catalina.realm.JDBCRealm"
+       connectionName="chatservadmin"
+       connectionPassword="chatservadmin"
+       connectionURL="jdbc:postgresql://188.166.204.23:5432/chatservdb"
+       driverName="org.postgresql.Driver"
+       userTable="usr_data"
+       userCredCol="usr_name"
+       userNameCol="usr_pass"
+       allRolesMode="authonly"
+    />
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>META-INF/context.xml</WatchedResource>
+</Context>

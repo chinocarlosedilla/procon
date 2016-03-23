@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 12, 2016, 12:48:39 PM
+    Author     : Chino
+*/
+
+.full_bg {
+    background-color: darkslategray;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.main_content_card {
+    background-color: #658cee;
+    margin: 0 auto;
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 16px;
+    font-family: sans-serif;
+}
+
+div.centered_in_card {
+    margin: 0 auto;
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size : xx-large;
+}
+
+div.left_in_card {
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size : xx-large;
+}
+
+div.card_element {
+    padding-bottom: 8px;
+    padding-top: 24px;
+}
+
+div.card_title_zone {
+    margin: 0 auto;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: sans-serif;
+    font-size: xx-large;
+    background-color: indigo;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: beige;
+}
+
+div.card_button_zone {
+    flex: 0;
+    right: 0px;
+    left: auto;
+    padding-top: 16px;
+    align-content: flex-end;
+}
+
+
+
+div.page_header_zone {
+    background-color: #FFF3E0;
+    width: 100%;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border: 0;
+}
+
+div.page_header_home {
+    display: inline-block;
+}
+
+div.page_header_buttons_zone {
+    display: inline-block;
+    right: 60px;
+    top: 53px;
+    position: absolute;
+}
+
+div.page_header_button {
+    display: inline-block;
+    background-color: goldenrod;
+    margin: 0 auto;
+    width: fit-content;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 8px;
+    font-family: sans-serif;
+}
+
+div.page_header_button:hover, div.card_button:hover {
+    background-color: cyan;
+}
+
+div.card_button, input[type=submit] {
+    display: inline-block;
+    background-color: goldenrod;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: sans-serif;
+    border: 0 none;
+}
+
+input[type=submit]:hover {
+    background-color: cyan;
+}
+
+input[type=text]:hover {
+    border-color: cyan;
+}
+
+td.user_id {
+    width: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+td.user_id:hover {
+    background-color: cyan;
+}
+
+td.name_of_pro {
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+td.user_profs {
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+td.xlarge {
+    font-weight: bolder;
+}
+
+td.profile_title {
+    padding-left: 12px;
+}
+
+td.profile_detail {
+    padding-left: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
