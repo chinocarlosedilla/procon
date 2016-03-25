@@ -42,12 +42,15 @@
                     %>
                     <a href="myProfile.jsp?myID=<%= request.getParameter("myID")%>"><div class="page_header_button">My Profile</div></a>
                     <a href="myAccount.jsp?myID=<%= request.getParameter("myID")%>"><div class="page_header_button">My Account</div></a>
+                    <a href="txn_history.jsp?myID=<%= request.getParameter("myID")%>"><div class="page_header_button">Transactions History</div></a>                    
+                    
                     <%
                 }
                 else if (iResult == -1) {
                     %>
                     <a href="myProfile.jsp?myID=${myID}"><div class="page_header_button">My Profile</div></a>
                     <a href="myAccount.jsp?myID=${myID}"><div class="page_header_button">My Account</div></a>
+                    <a href="txn_history.jsp?myID=${myID}"><div class="page_header_button">Transactions History</div></a>                    
                     <%
                 }%>
                 <a href="/ProConWeb/"><div class="page_header_button">Log Out</div></a>

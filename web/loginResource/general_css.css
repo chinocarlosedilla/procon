@@ -138,7 +138,7 @@ td.user_id:hover {
 
 td.name_of_pro {
     width: 400px;
-    text-align: center;
+    text-align: center; 
     border: 1px solid black;
 }
 
@@ -167,4 +167,26 @@ a {
 
 a:visited {
     color: black;
+}
+
+td.frm_usr{
+    width: 400px;
+    text-align:center;
+    border: 1px solid black;
+}
+
+td.to_usr{
+    width: 400px;
+    text-align:center;
+    border: 1px solid black;
+}
+td.txn_amt{
+    width: 200px;
+    text-align:center;
+    border: 1px solid black;
+}
+td.txn_datetime{
+    width: 200px;
+    text-align:center;
+    border: 1px solid black;
 }
